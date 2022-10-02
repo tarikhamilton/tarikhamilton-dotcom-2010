@@ -1,0 +1,194 @@
+/* CSS Design by Tarik Hamilton */
+/* http://www.tarikhamilton.com */
+
+/* ============== */
+/* Site Structure */
+/* ============== */
+
+html, body {
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center; /* IE6 solution. */
+}
+
+/* Elements with 0 margin */
+
+#title, dd, dt, h1, h2, #portfolio h2, #footer p {
+	margin: 0;
+}
+
+#container {
+	margin: 0 auto -130px;
+	padding: 0 0 25px;
+	height: auto !important;
+	min-height: 100%;
+	height: 100%; /* IE6 solution. Works as min-height. */
+	width: 85%;
+	text-align: left;
+}
+
+#title {
+	padding: 26px 60px 0 0;
+	width: 320px;
+}
+
+h1 { /* One in the same as title. Controls the brown. */
+	padding: 40px 35px;
+	width: 240px;
+}
+
+h3 {
+	margin: 5px 0 15px;
+}
+
+address {
+	display: inline;
+	padding: 15px;
+	margin: 0 10px;
+}
+
+#portfolio {
+	text-align: center;
+	float: right;
+	margin: 25px;
+	padding: 25px;
+	width: 155px;
+}
+
+img {border: 0;} /* These are portfolio related */
+dt {padding: 4px 0;}
+dd {padding: 4px 0 12px;}
+
+div.content {
+	margin: 35px 255px 15px 50px;
+	padding: 20px;	
+}
+
+p {
+	margin: 10px 0;
+}
+
+#footer, #footer_spacer {
+	height: 130px;
+}
+
+#footer {
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	bottom: 0;
+	width: 85%;
+}
+
+#footer a {border-bottom: 0;}
+
+#footer p {padding: 0 0 5px;}
+
+#valid_container {
+	padding: 10px;
+	margin: 0 auto;
+	width: 225px;
+}
+
+#valid_css, #valid_xhtml {
+	display: block;
+	height: 35px;
+	width: 105px;
+}
+
+#valid_css {float: right;}
+
+#valid_css { background: url(images/valid_w3c_css.gif); }
+#valid_xhtml { background: url(images/valid_w3c_xhtml.gif); }
+#valid_css:hover, #valid_xhtml:hover { background-position: -105px 0; }
+
+
+
+
+
+/* ============================= */
+/* Font standards and decoration */
+/* ============================= */
+
+body { 
+	font: 12px tahoma, sans-serif;
+}
+
+address { /* Do not change (E-mail) */
+	font-weight: bold;
+	font-style: normal;
+	font-size: 17px;
+	line-height: 17px;
+}
+
+h1, h2, #portfolio h2, h3 {	
+	font-weight: bold; 
+}
+
+h1 {
+	font-size: 32px;
+	line-height: 30px;	
+}
+
+h2 {
+	font-size: 150%;
+}
+
+#portfolio h2 {
+	font-size: 200%;
+} 
+
+h3 {
+	font-size: 125%;
+}
+
+p { 
+	font: 100% verdana;
+	line-height: 1.7em;
+}
+
+a {
+	border-bottom: 1px dashed;
+	text-decoration: none;
+}
+
+#portfolio dl {
+	font-size: 120%;
+}
+
+#footer {
+	font-size: 10px;
+	line-height: 1em;
+}
+
+#copyright {
+	font-variant: small-caps;
+}
+
+/* ============= */
+/* Common Colors */
+/* ============= */
+
+/* Fonts */
+
+body			{color: black;}
+h1, address		{color: #cdcdcd;}
+h2				{color: #58c14b;}
+#portfolio h2	{color: #fff;}
+h3		 		{color: #7dc3b8;}
+a				{color: #1e6d60; border-color: #27a28e;}
+#portfolio		{color: #38240c;}
+#footer			{color: #977348;}
+
+
+/* Background Property */
+
+body		{background: url(images/background_fill2.gif);}
+h1			{background: #38240c;}
+address		{background: #734f22;}
+#container	{background: #27a28e url(images/bg_clouds.jpeg) repeat-x top;}
+#title		{background: url(images/logo_arrow.png) no-repeat top right;}
+#portfolio	{background: #58c14b;}
+.content	{background: #eeeeee;}
+#footer		{background: #38240c;}
